@@ -1,0 +1,92 @@
+/*----------------
+   Contact Page
+ ----------------*/
+ .contact__page {
+    background: $bg_2;
+    padding: 30px 0 80px;
+ }
+
+ .contact-top {
+    padding: 30px;
+    margin-bottom: 105px;
+    background: $bg_4;
+ }
+
+ .map {
+    iframe {
+        width: 100%;
+        height: 390px;
+    }
+ }
+
+ .contact-text {
+     padding: 40px 0 30px;
+     h3 {
+         color: $white_color;
+         text-transform: uppercase;
+         margin-bottom: 25px;
+     }
+     p {
+         color: #c4c4c4;
+         margin-bottom: 25px;
+     }
+     ul {
+        list-style: none;
+        padding-bottom: 10px;
+        li {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 15px;
+            span {
+                display: inline-block;
+                margin: 0 10px;
+                color: #c4c4c4;
+            }
+            i {
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 20px;
+                color: $primary_color;
+            }
+            color: $white_color;
+            font-size: 15px;
+        }
+     }
+ }
+
+ .contact__social {
+     a {
+         display: inline-block;
+         margin-right: 15px;
+         font-size: 18px;
+         color: $white_color;
+
+     }
+ }
+
+ .contact-form {
+    h3 {
+        text-transform: uppercase;
+        color: $white_color;
+        margin-bottom: 50px;
+    }
+    input,
+    textarea {
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 18px;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #393441;
+        background: transparent;
+        color: $white_color;
+    }
+    textarea {
+        resize: none;
+        height: 96px;
+    }
+    .site__btn {
+        min-width: 113px;
+    }
+}

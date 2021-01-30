@@ -1,0 +1,39 @@
+/*------------------
+   About page
+ ------------------*/
+.about__page {
+    background: $bg_2;
+    padding: 30px 0 80px;
+}
+
+.about__page__text {
+    padding: 50px 50px 25px;
+    margin-bottom: 80px;
+    background: $bg_4 ;
+    @media #{$tab_device, $large_mobile, $small_mobile} {
+        padding: 50px 15px 25px;
+     }
+    .section-title {
+        margin-bottom: 20px;
+    }
+}
+
+
+.populer__show__card {
+    margin-bottom: 30px;
+    h4 {
+        font-size: 20px;
+        color: $white_color;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+    img {
+        min-width: 100%;
+    }
+    .show__info {
+        padding: 23px 25px 20px;
+        background: $bg_4;
+    }
+}

@@ -1,0 +1,98 @@
+/*------------------
+  Common page style
+ ------------------*/
+.page-top-section {
+    height: 475px;
+    padding-top: 300px;
+    background-image: url("../img/page-top-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    background-color: $bg_2;
+    @media #{$medium_device,$tab_device, $large_mobile, $small_mobile} {
+        background-size: cover;
+    }
+    @media #{ $tab_device, $large_mobile, $small_mobile} {
+        height: 350px;
+        padding-top: 180px;
+    }
+     
+}
+
+.page-info-icon {
+    width: 85px;
+    height: 85px;
+    font-size: 27px;
+    color: #fff;
+    float: left;
+    margin-right: 25px;
+    @include flexbox-center();
+    @include gradient1();
+    border-radius: 50%;
+}
+
+.page-info-text {
+    h2 {
+        color: $white_color;
+        text-transform: uppercase;
+    }
+}
+
+.site-breadcrumb {
+    padding-top: 5px;
+    a {
+        display: inline-block;
+        color: $white_color;
+        margin-right: 25px;
+        position: relative;
+        &:after {
+            position: absolute;
+            content: "\f105";
+            font-family: 'FontAwesome';
+            right: -19px;
+            top: 0;
+            color: $white_color;
+        }
+    }
+    span {
+        display: inline-block;
+        color: #888888;
+    }
+}
+
+.site__pagination {
+    text-align: center;
+    a {
+        display: inline-block;
+        min-width: 50px;;
+        height: 50px;
+        text-align: center;
+        padding: 12px 15px 16px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $white_color;
+        background: $bg_5;
+        &.active {
+            @include gradient1();
+        }
+        &.next-page {
+            margin-right: 0;
+        }
+        &.next-page,
+        &.prev-page {
+            color: $primary_color;
+            background: transparent;
+            padding: 11px 19px 13px;
+            border: 10px solid;
+            border-image-slice: 1;
+            border-width: 1px;
+            // border-image-source: linear-gradient(to left, #ea34ff, #503aca);
+            border-image-source: -moz-linear-gradient(50deg, rgba(80,58,202,1) 0%, rgba(234,52,255,1) 100%);
+            border-image-source: -webkit-linear-gradient(50deg, rgba(80,58,202,1) 0%, rgba(234,52,255,1) 100%);
+            border-image-source: linear-gradient(50deg, rgba(80,58,202,1) 0%, rgba(234,52,255,1) 100%);
+        }
+    }
+}

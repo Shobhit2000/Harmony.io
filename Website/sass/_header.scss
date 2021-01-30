@@ -1,0 +1,27 @@
+/*---------------------
+   Header section
+ -----------------------*/
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 32px 15px 0;
+  z-index: 99;
+}
+
+.header__warp {
+  max-width: 1760px;
+  margin: 0 auto;
+  @media #{$tab_device} {
+    padding: 0 50px;
+  }
+}
+
+.site__logo {
+  display: inline-block;
+  @media #{$tab_device, $large_mobile, $small_mobile} {
+    margin-bottom: 20px;
+    max-width: 130px;
+  }
+}

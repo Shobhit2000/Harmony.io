@@ -1,0 +1,63 @@
+/*---------------------
+   Hero section
+ -----------------------*/
+.hero__section {
+  height: 1275px;
+  padding-top: 380px;
+  position: relative;
+  z-index: 5;
+  @media #{$small_mobile, $large_mobile} {
+    padding-top: 200px;
+    height: 900px;
+  }
+}
+
+
+.hero__slider {
+  max-width: 750px;
+  @media #{$small_mobile} {
+    .owl-nav {
+      text-align: center;
+    }
+  }
+  button.owl-prev,
+  button.owl-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5) !important;
+    margin-right: 10px;
+    font-size: 20px !important;
+  }
+}
+
+.hero__items {
+  padding-bottom: 52px;
+  @media #{$small_mobile} {
+    text-align: center;
+    padding: 52px 25px;
+  }
+  span {
+    font-family: $font_2;
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    @media #{$small_mobile} {
+      font-size: 34px;
+    }
+    @media #{$large_mobile} {
+      font-size: 45px;
+    }
+    @media #{$tab_device} {
+      font-size: 60px;
+    }
+  }
+  p {
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,323 @@
+/*---------------------
+   Video Player Style
+ ----------------------*/
+.video__section {
+    position: relative;
+    background: $sub_color;
+    padding: 105px 0 215px;
+    background-color: $bg_2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: 2;
+}
+
+
+.video-player {
+    background: #100923;
+    .jp-jplayer {
+        position: relative;
+        width: 100% !important;
+        height: 520px !important;
+        @media #{$tab_device} {
+            height: 400px !important;
+        }
+        @media #{$large_mobile} {
+            height: 350px !important;
+        }
+        @media #{$small_mobile} {
+            height: 250px !important;
+        }
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: 8;
+        }
+        video {
+            width: 100% !important;
+            height: 520px !important;
+            @media #{$tab_device} {
+                height: 400px !important;
+            }
+            @media #{$large_mobile} {
+                height: 350px !important;
+            }
+            @media #{$small_mobile} {
+                height: 250px !important;
+            }
+            background: #000;
+        }
+    }
+
+    .video-title {
+        position: absolute;
+        font-size: 16px;
+        color: #fff;
+        top: 20px;
+        left: 40px;
+        padding-right: 50px;
+        z-index: 7;
+        text-transform: uppercase;
+        font-weight: 600;
+        opacity: 0;
+        transition: all 0.4s ease 3s;
+    }
+
+    .jp-video-play-icon {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: calc(50% - 35px);
+        top: calc(50% - 35px);
+        padding-left: 11px;
+        text-align: center;
+        font-size: 20px;
+        color: $white_color;
+        background: $primary_color;
+        border-radius: 50%;
+        border: none;
+        z-index: 10;
+    }
+
+    .jp-controls-holder {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 17px;
+        z-index: 5;
+        // opacity: 0;
+        transition: all 0.4s ease 3s;
+    }
+
+    .player-left-hover:hover {
+        .jp-controls-holder,
+        .video-title  {
+            opacity: 1;
+            transition: all 0.4s ease 0s;
+        }
+    }
+
+    .player-left-hover {
+        @media #{$tab_device, $large_mobile, $small_mobile} {
+            padding-right: 15px !important;
+        }
+    }
+
+    .jp-controls {
+        display: inline-block;
+        width: 140px;
+        padding-left: 30px;
+        @media #{ $small_mobile} {
+            width: 110px;
+        }
+        button {
+            width: 30px;
+            font-size: 14px;
+            border: none;
+            color: #fff;
+            background: transparent;
+            @media #{ $small_mobile} {
+                width: 19px;
+            }
+            &.jp-play {
+                width: 30px;
+                height: 30px;
+                margin: 0 5px;
+                padding-left: 9px;
+                padding-top: 2px;
+                border-radius: 50px;
+                background: #e934ff;
+                @media #{ $small_mobile} {
+                    margin: 0;
+                }
+             }
+        }
+    }
+
+     .jp-current-time,
+     .jp-duration {
+         position: absolute;
+         width: 60px;
+         top: -10px;
+         text-align: center;
+         font-size: 16px;
+         font-weight: 600;
+         color: $white_color;
+         @media #{ $small_mobile} {
+            font-size: 12px;
+            width: 40px;
+            top: -8px;
+        }
+     }
+     .jp-current-time {
+        left: 0;
+     }
+     .jp-duration {
+        right: 0;
+     }
+
+     .jp-progress {
+        position: relative;
+        display: inline-block;
+        width: calc(100% - 265px);
+        @media #{$tab_device, $large_mobile} {
+            width: calc(100% - 165px);
+        }
+        @media #{$small_mobile} {
+            width: calc(100% - 140px);
+        }
+     }
+
+     .jp-seek-bar {
+        width: calc(100% - 140px) !important;
+        height: 5px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.35);
+        cursor: pointer;
+        @media #{ $small_mobile} {
+            width: calc(100% - 100px) !important;
+        }
+     }
+  
+     .jp-play-bar {
+        height: 5px;
+        background: #ffffff;
+        position: relative;
+        overflow: inherit !important;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 9px;
+            height: 9px;
+            right: -2px;
+            top: -2px;
+            background: #fff;
+            border-radius: 50px;
+            border-radius: 50px;
+         }
+     }
+     .jp-volume-controls {
+         width: 110px;
+         display: inline-block;
+         @media #{$tab_device, $large_mobile, $small_mobile} {
+            display: none;
+        }
+         button {
+            position: relative;
+            top: 3px;
+            width: 30px;
+            font-size: 16px;
+            border: none;
+            color: #fff;
+            background: transparent;
+        }
+     }
+     .jp-volume-bar {
+        display: inline-block;
+        width: 60px !important;
+        height: 5px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.35);
+        cursor: pointer;
+        .jp-volume-bar-value {
+            height: 5px;
+            background: #ffffff;
+            position: relative;
+            overflow: inherit !important;
+            &:after{
+                position: absolute;
+                content: "";
+                width: 9px;
+                height: 9px;
+                right: -2px;
+                top: -2px;
+                background: #fff;
+                border-radius: 50px;
+                border-radius: 50px;
+            }
+        }
+    }
+}
+
+.jp-state-playing {
+    .video-player {
+        .jp-controls button.jp-play .fa-play:before {
+        content: "\f04c";
+        }
+        .jp-controls button.jp-play {
+            padding-left: 6px;
+        }
+    }
+ }
+
+ .jp-state-muted {
+    .video-player {
+        .jp-volume-controls button.jp-mute .fa-volume-up:before {
+        content: "\f026";
+        }
+    }
+ }
+
+
+ .video-playlist {
+     padding-top: 30px;
+     padding-left: 15px;
+     height: 520px;
+     li {
+         overflow: hidden;
+         margin-bottom: 25px;
+         a {
+             display: block;
+             overflow: hidden;
+         }
+         &.jp-playlist-current {
+            h6 {
+                color: $primary_color;
+            }
+            p {
+                margin-bottom: 0;
+                color: $white_color;
+            }
+         }
+     }
+     
+     .video-list-item {
+         .vli-left {
+             width: 120px;
+             float: left;
+             position: relative;
+             margin-right: 18px;
+         }
+         .vli-right {
+             overflow: hidden;
+             padding-right: 20px;
+         }
+         .video-time {
+             position: absolute;
+             width: 40px;
+             height: 20px;
+             left: 0;
+             top: 0;
+             font-size: 12px;
+             text-align: center;
+             color: $white_color;
+             background: rgba(0, 0, 0, 0.5);
+         }
+         h6 {
+             font-weight: 600;
+             color: $white_color;
+             margin-bottom: 10px;
+         }
+         
+         p{
+            font-size: 14px;
+            i {
+                font-size: 12px;
+                margin-right: 8px;
+            }
+        }
+     }
+ }
