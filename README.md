@@ -6,9 +6,6 @@
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/inspiration.png">
 </p>
 
-## Inspiration
-Harmony.io is built with the aim of bringing people together from different parts of the world on a common platform where they can have fun, connect with people, and compose music at the same time. As we all know, the Covid-19 had a drastic effect on all of the music industries. At this very moment, it is hard to compose songs with your team.
-
 ## Aim
 On our platform, the musicians will be able to get together and choose from the given set of instruments and will be able to compose songs together on a video call platform using gesture controls providing a completely new and mind-blowing experience. This will solve the problem of professional music composers and also will give a platform to struggling musicians to showcase our talent and share their work on platforms like Spotify, I-tunes, and Amazon Music. Harmony.io is a one-stop platform where people can come together and have some fun giving a sense of virtual gathering along with playing music virtually without actually requiring any musical instruments.
 
