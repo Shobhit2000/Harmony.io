@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/harmony.png">
 </p>
+
 ## Inspiration
 Harmony.io is built with the aim of bringing people together from different parts of the world on a common platform where they can have fun, connect with people, and compose music at the same time. As we all know, the Covid-19 had a drastic effect on all of the music industries. At this very moment, it is hard to compose songs with your team.
 
