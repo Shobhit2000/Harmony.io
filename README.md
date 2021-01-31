@@ -10,6 +10,26 @@
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/aim.png">
 </p>
 
+
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/implementation.png">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/challenges.png">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/accomplishments.png">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/learning.png">
+</p>
+
 # Implementation
 The major component of our software is the video streaming feature which is built with the Agora. Our main implementation is based on the gesture-controlled feature using which you can play the instruments just by the actual gestures that we use for playing particular instruments that are done very efficiently using OpenCV. There is also an option to change the background to have an effect of a real band which is done using the deeplab_v3 segmentation model. The entire frontend is built in HTML/CSS and all the algorithms and the AI implementations are done in Python
 
