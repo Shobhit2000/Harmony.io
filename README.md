@@ -6,8 +6,9 @@
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/inspiration.png">
 </p>
 
-## Aim
-On our platform, the musicians will be able to get together and choose from the given set of instruments and will be able to compose songs together on a video call platform using gesture controls providing a completely new and mind-blowing experience. This will solve the problem of professional music composers and also will give a platform to struggling musicians to showcase our talent and share their work on platforms like Spotify, I-tunes, and Amazon Music. Harmony.io is a one-stop platform where people can come together and have some fun giving a sense of virtual gathering along with playing music virtually without actually requiring any musical instruments.
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/aim.png">
+</p>
 
 # Implementation
 The major component of our software is the video streaming feature which is built with the Agora. Our main implementation is based on the gesture-controlled feature using which you can play the instruments just by the actual gestures that we use for playing particular instruments that are done very efficiently using OpenCV. There is also an option to change the background to have an effect of a real band which is done using the deeplab_v3 segmentation model. The entire frontend is built in HTML/CSS and all the algorithms and the AI implementations are done in Python
