@@ -1,0 +1,53 @@
+{
+  "_from": "agora-rtc-sdk",
+  "_id": "agora-rtc-sdk@3.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-deQBTmN7rDRKFop/opbZrYUIkI4SCOFE4bV0ulf8lbZJj06K1UZI/F/92RbTGiFAscFFE0gGWNzG4ZlKmOsMCA==",
+  "_location": "/agora-rtc-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "agora-rtc-sdk",
+    "name": "agora-rtc-sdk",
+    "escapedName": "agora-rtc-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/agora-rtc-sdk/-/agora-rtc-sdk-3.2.1.tgz",
+  "_shasum": "3e07d2609d681872489e82db86d934121414aea9",
+  "_spec": "agora-rtc-sdk",
+  "_where": "C:\\Users\\SHOBHIT\\Desktop\\Owlhacks\\Video_streaming\\assets",
+  "author": {
+    "name": "agora"
+  },
+  "bugs": {
+    "url": "https://github.com/AgoraIO/web-archive/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "AgoraRTC SDK for web",
+  "homepage": "https://github.com/AgoraIO/web-archive#readme",
+  "keywords": [
+    "Agora",
+    "Webrtc",
+    "Javascript"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "AgoraRTCSDK.min.js",
+  "name": "agora-rtc-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgoraIO/web-archive.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "index.d.ts",
+  "version": "3.2.1"
+}
