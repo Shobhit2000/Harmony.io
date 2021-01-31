@@ -38,6 +38,8 @@
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/built.png">
 </p>
 
+##Images
+
 <p align="center">
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/extras/demo/Cover.png">
 </p>
