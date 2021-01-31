@@ -227,9 +227,9 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	border: none;
 	text-transform: uppercase;
 	background: #503aca;
-	background: -o-linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
-	background: linear-gradient(45deg, #503aca 0%, #ea34ff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#503aca", endColorstr="#ea34ff", GradientType=1);
+	background: -o-linear-gradient(45deg, #E55D87 0%, #5FC3E4 100%);
+	background: linear-gradient(45deg, #E55D87 0%, #5FC3E4 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E55D87", endColorstr="#5FC3E4", GradientType=1);
 }
 
 .site__btn:hover {
