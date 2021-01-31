@@ -38,5 +38,15 @@
   <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/Images/built.png">
 </p>
 
-
-
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/extras/demo/Cover.png">
+</p>
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/extras/demo/album.PNG">
+</p>
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/extras/demo/live.PNG">
+</p>
+<p align="center">
+  <img src="https://github.com/Shobhit2000/Harmony.io/blob/master/extras/demo/music.PNG">
+</p>
