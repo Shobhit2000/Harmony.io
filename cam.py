@@ -41,6 +41,7 @@ def ROI_analysis(roi_arr):
 cap = cv2.VideoCapture(0)
 
 while(True):
+    
     ret, frame = cap.read()
     frame = cv2.flip(frame, 1)
 
